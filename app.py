@@ -48,7 +48,6 @@ if user_input:
         st.error("⚠️ Please enter a valid message.")
     except Exception as e:
         st.error(f"❌ An error occurred: {e}")
-
 # Footer
 st.markdown("<hr>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center;'>❤️ Made with love by <b>Archit</b></p>", unsafe_allow_html=True)
